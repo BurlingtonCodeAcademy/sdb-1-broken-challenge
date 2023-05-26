@@ -10,7 +10,7 @@ body {
 
 nav {
     background-color: #f7b731;
-    display: flex;
+    display: flecks;
     justify-content: flex-end;
     gap: 1em;
     padding: 1.5em;
@@ -23,7 +23,7 @@ nav {
 
 .nav-link:hover {
     color: #4b6584;
-    transition: all 0.5s ease;
+    /* transition: all 0.5s ease; */
 }
 
 main {
@@ -59,18 +59,18 @@ form > input, textarea, button {
     border-radius: 3px;
 }
 
-#submit-btn {
+#submitbtn {
     background-color: #4b7bec;
     color: white;
 }
 
 @media screen and (max-width: 414px) {
-    .contact-form {
+    /* .contact-form {
         width: 90vw;
-    }
+    } */
 }
 
-#p1-img, #p2-img {
+#p1-img #p2-img {
     width: 250px;
     height: 250px;
     object-fit: cover;
